@@ -1,0 +1,14 @@
+{
+    "name": "Tab Media Switcher",
+    "version": "1.0",
+    "description": "Switch media for chrome tabs.",
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "options_page": "options.html",
+    "permissions": [
+        "tabs",
+        "activeTab"
+    ],
+    "manifest_version": 2
+ }
