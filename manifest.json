@@ -6,9 +6,15 @@
         "default_popup": "popup.html"
     },
     "options_page": "options.html",
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": true
+    },
     "permissions": [
         "tabs",
-        "activeTab"
+        "activeTab",
+        "audioCapture",
+        "videoCapture"
     ],
     "manifest_version": 2
  }
