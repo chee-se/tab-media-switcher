@@ -3,7 +3,7 @@
   navigator.mediaDevices.enumerateDevices().then((devices) => {
     if (devices.every((deviceInfo) => deviceInfo.label == "")) {
       chrome.windows.create({
-        "url": "window.html",
+        "url": "/html/window.html",
         "type": "popup",
         "focused": true,
         "width": 100,
